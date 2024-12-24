@@ -12,4 +12,6 @@
 4. Подготовка и выполнение фильтра на GPU: Функция prepare_and_execute_gpu подготавливает данные для работы на GPU, распределяет вычисления по блокам и потокам, а затем вызывает apply_median_filter_gpu для выполнения медианной фильтрации на GPU.
 5. Тестирование: В функции test изображение загружается, на него накладывается шум, затем применяются медианные фильтры на CPU и GPU. Результаты отображаются в виде четырёх изображений: исходное, зашумленное, отфильтрованное на CPU и отфильтрованное на GPU. Также сохраняются изображения в файлы и выводятся время выполнения на CPU и GPU, а также ускорение.
 
-![Исходное и зашумленное изображение](https://github.com/AlexeyBurlakow/SU-HPC-Fall-2024/blob/main/salt_and_pepper/images/1.png)
+!(https://github.com/AlexeyBurlakow/SU-HPC-Fall-2024/blob/main/salt_and_pepper/images/1.png)
+!(https://github.com/AlexeyBurlakow/SU-HPC-Fall-2024/blob/main/salt_and_pepper/images/2.png)
+!(https://github.com/AlexeyBurlakow/SU-HPC-Fall-2024/blob/main/salt_and_pepper/images/3.png)
