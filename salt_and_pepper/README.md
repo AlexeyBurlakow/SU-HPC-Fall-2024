@@ -3,6 +3,7 @@
  Given the image of size M×N with “Salt and Pepper” noise, implement and apply a CUDA version of 9-point
  median filter and store the result to output image. Missing values for edge rows and columns are to be taken from
  nearest pixels. CUDA implementation must make use of texture memory.
+ 
 Реализация:
 
 1. Добавление шума: Функция add_salt_and_pepper_noise добавляет шум в изображение.
